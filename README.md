@@ -2,14 +2,14 @@
 
 What is Odd World?  
 This is a modification for Serious Sam Classic The Second Encounter.   
-This mod required [https://gitflic.ru/project/tx00100xt/serioussamclassic] to run.  
+This mod required https://gitflic.ru/project/tx00100xt/serioussamclassic to run.  
 Odd World was created by fans of the game Serious Sam Classic and is distributed for free.    
 
 Description:  
-Faster than a speeding werebull!  
+Faster than a speeding werebull!
 Leap over walls in a single bound!  
-Its a bird! Its a plane! No! Its Sam-Da-Man! He's back and ready to kick some more ass in this high adrenaline modification.  
-OddWorld takes you through the same great game but its faster, more action packed, and will blow you away (quite literally).  
+Its a bird! Its a plane! No! Its Sam-Da-Man! He's back and ready to kick some more ass in this high adrenaline modification.
+OddWorld takes you through the same great game but its faster, more action packed, and will blow you away (quite literally).
 Don't be the last one to get this great mod!    
 
 Author:  
