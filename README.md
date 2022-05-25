@@ -2,7 +2,7 @@
 
 What is Odd World?  
 This is a modification for Serious Sam Classic The Second Encounter.   
-This mod required https://gitflic.ru/project/tx00100xt/serioussamclassic to run.  
+This mod required https://github.com/tx00100xt/SeriousSamClassic to run.  
 Odd World was created by fans of the game Serious Sam Classic and is distributed for free.    
 
 Description:  
@@ -34,6 +34,12 @@ cd SE1-TFE-OddWorld/Sources
 ```
 After that , libraries will be collected in the x32 or x64 directory .   
 Copy them to SeriousSamClassic/SamTFE/Mods/OddWWorldHD/Bin folder.
+
+### Suported OS
+linux
+
+### Other OS
+Not supported
 
 License
 -------
