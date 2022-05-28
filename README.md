@@ -1,8 +1,8 @@
 ## Serious Sam Classic Odd World
 
 What is Odd World?  
-This is a modification for Serious Sam Classic The Second Encounter.   
-This mod required https://github.com/tx00100xt/SeriousSamClassic to run.  
+This is a modification for Serious Sam Classic The Second Encounter.  
+This mod required https://github.com/tx00100xt/SeriousSamClassic or https://github.com/tx00100xt/SeriousSamClassic-VK to run.  
 Odd World was created by fans of the game Serious Sam Classic and is distributed for free.    
 
 Description:  
