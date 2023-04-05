@@ -387,7 +387,7 @@ jobs:
              cmake SE1-TFE-OddWorld/Sources -B SE1-TFE-OddWorld/Sources/build-armv7l -DCMAKE_BUILD_TYPE=${{ matrix.Configuration }} -DCMAKE_C_FLAGS=-mbe32 -DCMAKE_CXX_FLAGS=-mbe32 -DUSE_I386_NASM_ASM=FALSE -DTFE=TRUE -DRPI4=TRIE
             make -C SE1-TFE-OddWorld/Sources/build-armv7l ecc
             make -j4 -C SE1-TFE-OddWorld/Sources/build-armv7l
-            cp -vfr SE1-TFE-OddWorld/Sources/build-armv7l/Debug/*.so SE1-TFE-OddWorld/x32/SamTFE/Mods/OddWorld/Bin           
+            cp -vfr SE1-TFE-OddWorld/Sources/build-armv7l/Debug/*.so SE1-TFE-OddWorld/x32/SamTFE/Mods/OddWorldHD/Bin           
             mv SE1-TFE-OddWorld/x32 armv7l
             XZ_DEFAULTS="-T 10" tar --use-compress-program=xz -cpvf SamTFE-OddWorld-${{ steps.date.outputs.time }}-rpios-armv7l-bin.tar.xz armv7l
             cp SamTFE-OddWorld-${{ steps.date.outputs.time }}-rpios-armv7l-bin.tar.xz Release/
@@ -448,7 +448,7 @@ jobs:
             cmake SE1-TFE-OddWorld/Sources -B SE1-TFE-OddWorld/Sources/build-aarch64 -DCMAKE_BUILD_TYPE=${{ matrix.Configuration }} -DTFE=TRUE -DRPI4=TRIE
             make -C SE1-TFE-OddWorld/Sources/build-aarch64 ecc
             make -j4 -C SE1-TFE-OddWorld/Sources/build-aarch64
-            cp -vfr SE1-TFE-OddWorld/Sources/build-aarch64/Debug/*.so SE1-TFE-OddWorld/x64/SamTFE/Mods/OddWorld/Bin            
+            cp -vfr SE1-TFE-OddWorld/Sources/build-aarch64/Debug/*.so SE1-TFE-OddWorld/x64/SamTFE/Mods/OddWorldHD/Bin            
             mv SE1-TFE-OddWorld/x64 aarch64
             XZ_DEFAULTS="-T 10" tar --use-compress-program=xz -cpvf SamTFE-OddWorld-${{ steps.date.outputs.time }}-rpios-aarch64-bin.tar.xz aarch64
             cp SamTFE-OddWorld-${{ steps.date.outputs.time }}-rpios-aarch64-bin.tar.xz Release/
